@@ -14,7 +14,7 @@
   }
 
   doCharity() {
-    return `I like to help people.`;`
+    return `I like to help people.`;
   }
 
 releasePressStatement — returns You will see great things from Scuber.
