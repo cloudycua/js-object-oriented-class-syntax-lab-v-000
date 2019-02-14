@@ -5,13 +5,17 @@
     this.training = training;
   }
 
-Add the following methods to the prototype using the class syntax:
+  veto() {
+    return `No, I must disagree`;
+  }
 
-veto — returns No, I must disagree
+  approve() {
+    return `You can do that!`;
+  }
 
-approve — returns You can do that!
-
-doCharity — returns I like to help people.
+  doCharity() {
+    return `I like to help people.`;`
+  }
 
 releasePressStatement — returns You will see great things from Scuber.
 
