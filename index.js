@@ -1,4 +1,4 @@
-(class BoardMember {
+class BoardMember {
   constructor(name, homeState, training) {
     this.name = name;
     this.homeState = homeState;
@@ -30,3 +30,4 @@
 //Add a new method giving the Ceo the ability to hire new employees. This functionality should not be available to a board member. So the Ceo would have one new method:
 
 //hireEmployee — returns Welcome aboard!
+}
