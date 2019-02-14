@@ -21,7 +21,9 @@
     return `You will see great things from Scuber.`;
   }
 
-sayHi — returns "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.
+  sayHi() {
+    return `Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`;
+  }
 
 In index.js, build an ES2015 Ceo class with the following properties: name, training, and homeState. Use inheritance to accomplish this. A Ceo should have all of the methods that a boardMember has.
 
